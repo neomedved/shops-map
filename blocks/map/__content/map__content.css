@@ -1,0 +1,73 @@
+.map__content {
+    position: absolute;
+    top: -90px;
+    left: calc(100% + 18px);
+    min-width: 242px;
+    max-width: 276px;
+    padding: 24px 22px 10px;
+    min-height: 114px;
+    margin: 0;
+    background-image: url('../../../images/FFFFFF-0.8.png');
+    background-size: cover;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Myriad Pro', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+.map__content_top-right {
+    left: auto;
+    right: calc(100% + 18px);
+    top: -30px;
+}
+
+@media screen and (max-width: 1279px) {
+    .map__content {
+        min-width: 162px;
+        max-width: 184px;
+        padding: 16px 15px 7px;
+        min-height: 76px;
+        top: -60px;
+        left: calc(100% + 12px);
+    }
+
+    .map__content_top-right {
+        left: auto;
+        right: calc(100% + 12px);
+        top: -20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .map__content {
+        min-width: 97px;
+        max-width: 111px;
+        padding: 10x 9px 4px;
+        min-height: 46px;
+        top: -36px;
+        left: calc(100% + 7px);
+    }
+
+    .map__content_top-right {
+        left: auto;
+        right: calc(100% + 7px);
+        top: -12px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .map__content {
+        min-width: 70px;
+        max-width: 79px;
+        padding: 7px 6px 3px;
+        min-height: 33px;
+        top: -26px;
+        left: calc(100% + 5px);
+    }
+
+    .map__content_top-right {
+        left: auto;
+        right: calc(100% + 5px);
+        top: -9px;
+    }
+}

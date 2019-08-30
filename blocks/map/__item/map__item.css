@@ -1,0 +1,22 @@
+@import url('_azbuka-brendov/map__item_azbuka-brendov.css');
+@import url('_bon-appartement/map__item_bon-appartement.css');
+@import url('_charity-botkinsky/map__item_charity-botkinsky.css');
+@import url('_charity-fadeeva/map__item_charity-fadeeva.css');
+@import url('_charity-novokuznetskaya/map__item_charity-novokuznetskaya.css');
+@import url('_charity-sadovaya/map__charity-sadovaya.css');
+@import url('_fefela-vintage/map__item_fefela-vintage.css');
+@import url('_frik-frak/map__item_frik-frak.css');
+@import url('_kings-of-denim/map__item_kings-of-deenim.css');
+@import url('_legacy-showroom/map__item_legacy-showroom.css');
+@import url('_mechta/map__item_mechta.css');
+@import url('_mix-and-match-vintage/map__item_mix-and-match-vintage.css');
+@import url('_nichego-podobnogo/map__item_nichego-podopnogo.css');
+@import url('_second-friend-store/map__item_second-friend-store.css');
+@import url('_strogo-vintage/map__item_strogo-vintage.css');
+@import url('_total-vintage/map__item_total-vintage.css');
+@import url('_vintage-voyage/map__item_vintage-voyage.css');
+
+.map__item {
+    position: absolute;
+    list-style-type: none;
+}

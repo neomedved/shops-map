@@ -1,0 +1,58 @@
+@keyframes popup {
+    from { 
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.map__popup {
+    position: absolute;
+    bottom: 50%;
+    left: calc((100% - 90px)/2);
+    display: none;
+    z-index: 1;
+    animation: popup 0.1s ease-out;
+}
+
+.map__item:hover .map__popup {
+    display: block;
+}
+
+.map__popup_top-right {
+    
+    position: absolute;
+    right: calc((100% - 90px)/2);
+    left: auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .map__popup {
+        left: calc((100% - 60px)/2);
+    }
+
+    .map__popup_top-right {
+        right: calc((100% - 60px)/2);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .map__popup {
+        left: calc((100% - 36px)/2);
+    }
+
+    .map__popup_top-right {
+        right: calc((100% - 36px)/2);
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .map__popup {
+        left: calc((100% - 26px)/2);
+    }
+
+    .map__popup_top-right {
+        right: calc((100% - 26px)/2);
+    }
+}

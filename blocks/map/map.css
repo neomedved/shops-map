@@ -1,0 +1,41 @@
+@import url('__address/map__address.css');
+@import url('__background/map__background.css');
+@import url('__container/map__container.css');
+@import url('__content/map__content.css');
+@import url('__item/map__item.css');
+@import url('__logo/map__logo.css');
+@import url('__pin/map__pin.css');
+@import url('__point/map__point.css');
+@import url('__popup/map__popup.css');
+@import url('__underline/map__underline.css');
+@import url('__title/map__title.css');
+@import url('__scale/map__scale.css');
+@import url('__scale-container/map__scale-container.css');
+
+.map {
+    width: 1098px;
+    max-width: 100%;
+    max-height: 100vh;
+    overflow: auto;
+}
+
+@media screen and (max-width: 1279px) {
+    .map {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .map {
+        width: 690px;
+        height: 700px;
+        height: 732px;
+    }
+}
+
+(@media screen and (max-width: 479px) {
+    .map {
+        max-width: 490px;
+        height: 500px;
+    }
+}

@@ -1,0 +1,20 @@
+.map__scale {
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    margin: 21px 0 0 21px;
+    display: block;
+    background-color: white;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media screen and (max-width: 767px) {
+    .map__scale {
+        width: 32px;
+        height: 32px;
+        margin: 16px 0 0 16px;
+        font-size: 16px;
+    } 
+}

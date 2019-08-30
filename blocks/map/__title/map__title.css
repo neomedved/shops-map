@@ -1,0 +1,34 @@
+.map__title {
+    width: 276px;
+    margin: 0 0 15px;
+    font-size: 33px;
+    line-height: 27px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1279px) {
+    .map__title {
+        width: 184px;
+        margin-bottom: 10px;
+        font-size: 22px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .map__title {
+        width: 111px;
+        margin-bottom: 6px;
+        font-size: 14px;
+        line-height: 11px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .map__title {
+        width: 79px;
+        margin-bottom: 5px;
+        font-size: 10px;
+        line-height: 8px;
+    }
+}

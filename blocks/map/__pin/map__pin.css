@@ -1,0 +1,29 @@
+.map__pin {
+    background-image: url('../../../images/pin.svg');
+    width: 90px;
+    height: 115px;
+    margin: 0;
+    background-size: cover;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .map__pin {
+        width: 60px;
+        height: 77px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .map__pin {
+        width: 36px;
+        height: 46px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .map__pin {
+        width: 26px;
+        height: 33px;
+    }
+}

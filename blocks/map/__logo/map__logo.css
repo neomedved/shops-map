@@ -1,0 +1,28 @@
+.map__logo {
+    max-width: 276px;
+    max-height: 112px;
+    margin: 0 auto 5px;
+}
+
+@media screen and (max-width: 1279px) {
+    .map__logo {
+        max-width: 184px;
+        max-height: 75px;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .map__logo {
+        max-width: 111px;
+        max-height: 45px;
+        margin-bottom: 2px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .map__logo {
+        max-width: 79px;
+        max-height: 32px;
+    }
+}

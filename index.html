@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/normalize.css">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Карта магазинов</title>
+</head>
+<body>
+
+    <script src="vendor/scripts/svg4everybody.js"></script>
+    <script>svg4everybody();</script>
+
+    <main class="map">
+        
+        <div class="map__scale-container">
+            <button class="map__scale map__scale_plus">+</button>
+            <button class="map__scale map__scale_minus">&minus;</button>
+            <button class="map__scale map__scale_reset">&olarr;</button>
+        </div>
+
+        <ul class="map__container">
+
+            <li class="map__item map__item_second-friend-store">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <img src="images/second-friend-store.svg" alt="Second Friend Store" class="map__logo">
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">ул. Мясницкая 24/7, стр. 1</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_top-right map__item_azbuka-brendov">
+                <div class="map__point map__point_top-right"></div>
+                <div class="map__popup map__popup_top-right">
+                    <div class="map__pin map__pin_top-right"></div>
+                    <div class="map__content map__content_top-right">
+                        <img src="images/azbuka-brendov.svg" alt="Azbuka Brendov" class="map__logo map__logo_top-right">
+                        <div class="map__underline map__underline_top-right"></div>
+                        <h3 class="map__address map__address_top-right">ул. Широкая, д.12Б, ТЦ "Фортуна"</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_nichego-podobnogo">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <img src="images/nichego-podobnogo-shop.svg" alt="Магазин одежды 'Ничего Подобного'" class="map__logo">
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">Сущевский Вал, 5с11, ТК “Савёловский”, корпус Спортивный</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_frik-frak">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <img src="images/frik-frak.svg" alt="Фрик Фрак" class="map__logo">
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">ул. Шаболовка 25, к.1</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_mechta">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <img src="images/mechta.svg" alt="Мечта" class="map__logo">
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">Чистопрудный б-р, 9</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_vintage-voyage">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <img src="images/vintage-voyage.svg" alt="Vintage Voyage" class="map__logo">
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">ул. Неглинная, 9</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_strogo-vintage">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <img src="images/strogo.svg" alt="Strogo Vintage" class="map__logo">
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">ул. Покровка, 17</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_mix-and-match-vintage">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <h2 class="map__title">Mix and Match Vintage</h2>
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">Хохловский пер., 7–9, 2</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_legacy-showroom">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <h2 class="map__title">Legacy Showroom</h2>
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">Хохловский пер, 3</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_kings-of-denim">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <img src="images/kings-of-denim.svg" alt="Kings of Denim" class="map__logo">
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">Лялин пер., 14, стр. 3</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_bon-appartement">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <img src="images/bon-appartement.svg" alt="BonAppartement" class="map__logo">
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">Столешников пер., 7/3</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_fefela-vintage">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <h2 class="map__title">Fefёla Vintage</h2>
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">Большой Златоустинский пер., 8/7</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_total-vintage">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <h2 class="map__title">Total Vintage</h2>
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">ул. Покровка, 1</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_charity-novokuznetskaya">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <h2 class="map__title">Charity Shop</h2>
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">ул. Новокузнецкая, д. 1</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_charity-fadeeva">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <h2 class="map__title">Charity Shop</h2>
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">ул. Фадеева, д. 7с1</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_charity-sadovaya">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <h2 class="map__title">Charity Shop</h2>
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">ул. Садовая-Спасская, д.12/23с1</h3>
+                    </div>
+                </div>
+            </li>
+
+            <li class="map__item map__item_charity-botkinsky">
+                <div class="map__point"></div>
+                <div class="map__popup">
+                    <div class="map__pin"></div>
+                    <div class="map__content">
+                        <h2 class="map__title">Charity Shop</h2>
+                        <div class="map__underline"></div>
+                        <h3 class="map__address">1-й Боткинский переезд, д. 7с1</h3>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
